@@ -1,0 +1,29 @@
+<Patch>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThoughtDef[defName = "Chitchat"]/maxCumulatedOpinionOffset</xpath>
+		<value>
+			<maxCumulatedOpinionOffset>25</maxCumulatedOpinionOffset>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThoughtDef[defName = "Chitchat"]/stages/li[1]/baseOpinionOffset</xpath>
+		<value>
+			<baseOpinionOffset>2</baseOpinionOffset>
+		</value>
+	</Operation>	
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThoughtDef[defName = "DeepTalk"]/stackedEffectMultiplier</xpath>
+		<value>
+			<stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThoughtDef[defName = "DeepTalk"]/stages/li[1]/baseOpinionOffset</xpath>
+		<value>
+			<baseOpinionOffset>20</baseOpinionOffset>
+		</value>
+	</Operation>
+
+</Patch>
